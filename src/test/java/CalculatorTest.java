@@ -20,5 +20,9 @@ public class CalculatorTest {
     public void hasSecondNumber(){
         assertEquals(5, myCalculator.getSecondNumber());
     }
-    
+
+    @Test
+    public void canAdd(){
+        assertEquals(15, myCalculator.Add());
+    }
 }

@@ -14,4 +14,8 @@ public class Calculator {
     public int getSecondNumber(){
         return this.secondNumber;
     }
+
+    public int Add(){
+        return this.firstNumber + this.secondNumber;
+    }
 }
