@@ -15,6 +15,10 @@ public class WaterBottleTest {
     @Test
     public void canDrink(){
         assertEquals(90, water.drink());
+    }
 
+    @Test
+    public void bottleIsEmpty(){
+        assertEquals(0, water.empty());
     }
 }
