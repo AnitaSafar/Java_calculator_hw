@@ -18,4 +18,8 @@ public class Calculator {
     public int Add(){
         return this.firstNumber + this.secondNumber;
     }
+
+    public int Subtract(){
+        return this.firstNumber - this.secondNumber;
+    }
 }

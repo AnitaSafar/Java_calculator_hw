@@ -25,4 +25,9 @@ public class CalculatorTest {
     public void canAdd(){
         assertEquals(15, myCalculator.Add());
     }
+
+    @Test
+    public void canSubtract(){
+        assertEquals(5, myCalculator.Subtract());
+    }
 }
