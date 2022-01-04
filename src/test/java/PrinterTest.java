@@ -18,5 +18,6 @@ public class PrinterTest {
     }
 
     @Test
-    public void
+    public void canPrint(){
+    }
 }

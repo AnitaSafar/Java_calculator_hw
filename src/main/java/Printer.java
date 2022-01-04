@@ -8,4 +8,7 @@ public class Printer {
     public int getPaper(){
         return this.sheets;
     }
+
+    public int print(int pages, int copies){
+    }
 }

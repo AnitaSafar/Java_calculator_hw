@@ -28,4 +28,6 @@ public class Calculator {
     public int Multiply(){
         return this.firstNumber * this.secondNumber;
     }
+
+    }
 }
